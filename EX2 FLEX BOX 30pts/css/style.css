@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* write your style */
+.header{
+    background-color: rgb(114, 111, 111);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: rgb(158, 158, 158);
+}
+
+.main{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: teal; */
+
+}
+.card{
+    background-color: rgb(71, 63, 63);
+    width: 31%;
+    margin: 10px 5px 10px 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* padding: 0px; */
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(84, 85, 85);
+    color: white;
+    padding: 10px;
+}
